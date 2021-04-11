@@ -8,7 +8,7 @@ import { CustomerService } from 'src/app/services/customer.service';
 })
 export class CustomerComponent implements OnInit {
   customers: Customer[] = [];
-  currentCustomer: Customer | undefined;
+  currentCustomer: Customer;
 
   constructor(private customerService: CustomerService) {}
 
